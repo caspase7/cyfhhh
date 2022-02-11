@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return 'cyf1';
-    if (score <= 99) return 'cyf';
-    if (score <= 149) return 'cyf';
-    if (score <= 199) return 'cyf';
+    if (score <= 49) return 'cyf：真菜';
+    if (score <= 99) return 'cyf表示很赞';
+    if (score <= 149) return 'cyf：你礼貌吗';
+    if (score <= 199) return 'cyf：你礼貌吗';
     return '人？';
 }
 
